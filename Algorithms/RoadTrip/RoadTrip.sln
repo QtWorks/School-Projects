@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTrip", "RoadTrip\RoadTrip.csproj", "{01CC43ED-C597-42D4-8DEB-C5AC0E6CBA7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSql", "TestSql\TestSql.csproj", "{506727F8-DA17-4330-BFF6-5787E0B833E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CC43ED-C597-42D4-8DEB-C5AC0E6CBA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CC43ED-C597-42D4-8DEB-C5AC0E6CBA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CC43ED-C597-42D4-8DEB-C5AC0E6CBA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CC43ED-C597-42D4-8DEB-C5AC0E6CBA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506727F8-DA17-4330-BFF6-5787E0B833E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506727F8-DA17-4330-BFF6-5787E0B833E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506727F8-DA17-4330-BFF6-5787E0B833E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506727F8-DA17-4330-BFF6-5787E0B833E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
