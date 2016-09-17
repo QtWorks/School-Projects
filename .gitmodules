@@ -1,0 +1,14 @@
+[submodule "Algorithms"]
+path = Algorithms
+[submodule "Computer-Systems"]
+path = Computer-Systems
+[submodule "Database-Systems"]
+path = Database-Systems
+[submodule "UTrack"]
+path = Database-Systems/UTrack
+[submodule "UTrack-Web"]
+path = Database-Systems/UTrack-Web
+[submodule "Software-Practice"]
+path = Software-Practice
+[submodule "Software-Practice-II"]
+path = Software-Practice-II

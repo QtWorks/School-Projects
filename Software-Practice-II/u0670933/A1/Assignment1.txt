@@ -1,0 +1,138 @@
+Tanner Barlow
+Assignment 1
+CS 3505
+
+a)
+
+ After compiling the program, I would type the following:
+
+Send the results to output file
+"./inch_to_cm > output.txt"
+
+Redirect a data file to program
+"./inch_to_cm < input.txt"
+
+They can also be used together
+"./inch_to_cm < input.txt > output.txt"
+
+b)
+
+When a double is assigned 0.3 and 30 digits precision is used to print, the output is:
+
+0.299999999999999988897769753748
+
+At first, I wondered whether it would be because of the lack of precision.
+So I did the same thing with the 'float' data type. Here were the results:
+
+Double: 0.299999999999999988897769753748
+Float: 0.300000011920928955078125000000
+
+It may seem more accurate, but it turns out that the double value is closer
+to 0.3 than the float type. After further research, the double precision
+is not less than float (www.cplusplus.com/doc/tutorial/variables/)
+
+I then read on StackOverflow that long double could be more precise. 
+Here were my results:
+
+Double: 0.299999999999999988897769753748
+Float: 0.300000011920928955078125000000
+Long Double: 0.299999999999999988897769753748
+
+Long double was exactly the same as double. This led me to believe that it
+had more to do with printing to the console than the data types themselves.
+
+Further investigation on StackOverflow indicated that the maximum precision
+with using cout would be 17 (others said 15). I set the precision to each
+number between 10 and 30 to compare the outputs to see where they started
+to get weird. Here were my results:
+
+PRECISION LEVEL 10
+Double: 0.3000000000
+Float: 0.3000000119
+Long Double: 0.3000000000
+PRECISION LEVEL 11
+Double: 0.30000000000
+Float: 0.30000001192
+Long Double: 0.30000000000
+PRECISION LEVEL 12
+Double: 0.300000000000
+Float: 0.300000011921
+Long Double: 0.300000000000
+PRECISION LEVEL 13
+Double: 0.3000000000000
+Float: 0.3000000119209
+Long Double: 0.3000000000000
+PRECISION LEVEL 14
+Double: 0.30000000000000
+Float: 0.30000001192093
+Long Double: 0.30000000000000
+PRECISION LEVEL 15
+Double: 0.300000000000000
+Float: 0.300000011920929
+Long Double: 0.300000000000000
+PRECISION LEVEL 16
+Double: 0.3000000000000000
+Float: 0.3000000119209290
+Long Double: 0.3000000000000000
+PRECISION LEVEL 17
+Double: 0.29999999999999999
+Float: 0.30000001192092896
+Long Double: 0.29999999999999999
+PRECISION LEVEL 18
+Double: 0.299999999999999989
+Float: 0.300000011920928955
+Long Double: 0.299999999999999989
+PRECISION LEVEL 19
+Double: 0.2999999999999999889
+Float: 0.3000000119209289551
+Long Double: 0.2999999999999999889
+PRECISION LEVEL 20
+Double: 0.29999999999999998890
+Float: 0.30000001192092895508
+Long Double: 0.29999999999999998890
+PRECISION LEVEL 21
+Double: 0.299999999999999988898
+Float: 0.300000011920928955078
+Long Double: 0.299999999999999988898
+PRECISION LEVEL 22
+Double: 0.2999999999999999888978
+Float: 0.3000000119209289550781
+Long Double: 0.2999999999999999888978
+PRECISION LEVEL 23
+Double: 0.29999999999999998889777
+Float: 0.30000001192092895507812
+Long Double: 0.29999999999999998889777
+PRECISION LEVEL 24
+Double: 0.299999999999999988897770
+Float: 0.300000011920928955078125
+Long Double: 0.299999999999999988897770
+PRECISION LEVEL 25
+Double: 0.2999999999999999888977698
+Float: 0.3000000119209289550781250
+Long Double: 0.2999999999999999888977698
+PRECISION LEVEL 26
+Double: 0.29999999999999998889776975
+Float: 0.30000001192092895507812500
+Long Double: 0.29999999999999998889776975
+PRECISION LEVEL 27
+Double: 0.299999999999999988897769754
+Float: 0.300000011920928955078125000
+Long Double: 0.299999999999999988897769754
+PRECISION LEVEL 28
+Double: 0.2999999999999999888977697537
+Float: 0.3000000119209289550781250000
+Long Double: 0.2999999999999999888977697537
+PRECISION LEVEL 29
+Double: 0.29999999999999998889776975375
+Float: 0.30000001192092895507812500000
+Long Double: 0.29999999999999998889776975375
+PRECISION LEVEL 30
+Double: 0.299999999999999988897769753748
+Float: 0.300000011920928955078125000000
+Long Double: 0.299999999999999988897769753748
+
+As shown, beginning at 17, the precision begins to alter the
+number, and I suspect that some type of overflow is happening
+with printing the number to the console.
+
+
