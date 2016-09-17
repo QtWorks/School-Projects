@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SpreadsheetUtilities</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:SpreadsheetUtilities.DependencyGraph" -->
+        <member name="F:SpreadsheetUtilities.DependencyGraph.dependents">
+            <summary>
+            Dictionary of all dependents, indexed by string
+            </summary>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.dependees">
+            <summary>
+            Dictionary of all dependees, indexed by string
+            </summary>
+        </member>
+        <member name="F:SpreadsheetUtilities.DependencyGraph.size">
+            <summary>
+            Number of ordered pairs in dependency graph
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.#ctor">
+            <summary>
+            Creates an empty DependencyGraph.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Size">
+            <summary>
+            The number of ordered pairs in the DependencyGraph.
+            </summary>
+        </member>
+        <member name="P:SpreadsheetUtilities.DependencyGraph.Item(System.String)">
+            <summary>
+            The size of dependees(s).
+            This property is an example of an indexer.  If dg is a DependencyGraph, you would
+            invoke it like this:
+            dg["a"]
+            It should return the size of dependees("a")
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependents(System.String)">
+            <summary>
+            Reports whether dependents(s) is non-empty.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.HasDependees(System.String)">
+            <summary>
+            Reports whether dependees(s) is non-empty.
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependents(System.String)">
+            <summary>
+            Enumerates dependents(s).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetList(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.LinkedList{System.String}},System.String)">
+            <summary>
+            Returns the List at item s in Dictionary
+            </summary>
+            <param name="d">Dictionary to be used (dependees or dependents)</param>
+            <param name="s">String value to look for</param>
+            <returns>List value at value s. If s is not found, returns an empty LinkedList</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.GetDependees(System.String)">
+            <summary>
+            Enumerates dependees(s).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.AddDependency(System.String,System.String)">
+             <summary>
+             <para>Adds the ordered pair (s,t), if it doesn't exist</para>
+             
+             <para>This should be thought of as:</para>   
+             
+               s depends on t
+               
+               dependent(s) = t
+               dependee(t) = s
+            
+             </summary>
+             <param name="s"> s cannot be evaluated until t is</param>
+             <param name="t"> t must be evaluated first.  S depends on T</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.AddToDictionary(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.LinkedList{System.String}},System.String,System.String)">
+            <summary>
+            Add item to list contained at dictionary value
+            </summary>
+            <param name="dictionary">Dictionary to add to</param>
+            <param name="key">Dictionary key at which to add value</param>
+            <param name="value">Value to add at dictionary key</param>
+            <returns>True if dictionary was changed. False otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.RemoveDependency(System.String,System.String)">
+            <summary>
+            Removes the ordered pair (s,t), if it exists
+            </summary>
+            <param name="s"></param>
+            <param name="t"></param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.RemoveAllDependents(System.String)">
+            <summary>
+            Removes all dependents from any given dependee
+            </summary>
+            <param name="s">Dependee to be operated on</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.RemoveAllDependees(System.String)">
+            <summary>
+            Removes all dependees from any given dependent
+            </summary>
+            <param name="s">Dependent to be operated on</param>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependents(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Removes all existing ordered pairs of the form (s,r).  Then, for each
+            t in newDependents, adds the ordered pair (s,t).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ReplaceDependees(System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Removes all existing ordered pairs of the form (r,s).  Then, for each 
+            t in newDependees, adds the ordered pair (t,s).
+            </summary>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.RemoveDepItem(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.LinkedList{System.String}},System.String,System.String)">
+            <summary>
+            Removes an item from the list at given dictionary key
+            </summary>
+            <param name="d">The dictionary to remove the value from</param>
+            <param name="key">Key in dictionary under which the item to be removed may be found</param>
+            <param name="removeValue">The value to be removed</param>
+            <returns>True if dictionary was altered. False otherwise</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.ToString">
+            <summary>
+            Used to get string of all ordered pairs in the Dependency Graph
+            </summary>
+            <returns>String of all ordered pairs in the Dependency Graph separated by new line</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.MostDependedOn">
+            <summary>
+            Used to find the value in the dependency graph that is most depended on
+            </summary>
+            <returns>String of value that is most depended on</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.MostDependents">
+            <summary>
+            Used to find the value in the dependency graph that has most dependents
+            </summary>
+            <returns>String of value that has most dependents</returns>
+        </member>
+        <member name="M:SpreadsheetUtilities.DependencyGraph.Contains(System.String,System.String)">
+            <summary>
+            Reports whether dependency graph contains the ordered pair
+            </summary>
+            <param name="s">First value of ordered pair</param>
+            <param name="t">Second value of ordered pair</param>
+            <returns>True if ordered pair is found in graph, false otherwise</returns>
+        </member>
+    </members>
+</doc>

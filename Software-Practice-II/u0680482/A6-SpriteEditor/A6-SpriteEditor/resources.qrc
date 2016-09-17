@@ -1,0 +1,49 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/fast-forward.svg</file>
+        <file>icons/fast-rewind.svg</file>
+        <file>icons/pause-circle-outline.svg</file>
+        <file>icons/play-arrow.svg</file>
+        <file>icons/play-circle-fill.svg</file>
+        <file>icons/skip-next.svg</file>
+        <file>icons/skip-previous.svg</file>
+        <file>icons/fast-rewind_white.svg</file>
+        <file>icons/fast-forward_white.svg</file>
+        <file>icons/pause-circle-outline_white.svg</file>
+        <file>icons/play-arrow_white.svg</file>
+        <file>icons/play-circle-fill_white.svg</file>
+        <file>icons/skip-previous_white.svg</file>
+        <file>icons/skip-next_white.svg</file>
+        <file>icons/replay_icon.svg</file>
+        <file>icons/color_fill_format_icon.svg</file>
+        <file>icons/art_brush_paint_tool_icon_white.svg</file>
+        <file>icons/art_brush_paint_tool_icon.svg</file>
+        <file>icons/color_fill_format_icon_white.svg</file>
+        <file>icons/palette_icon_white.svg</file>
+        <file>icons/palette_icon.svg</file>
+        <file>icons/replay_icon_white.svg</file>
+        <file>icons/eraser.svg</file>
+        <file>icons/eraser_white.svg</file>
+        <file>icons/hand.svg</file>
+        <file>icons/hand_white.svg</file>
+        <file>icons/zoom-in.svg</file>
+        <file>icons/zoom-out.svg</file>
+        <file>icons/zoom-in_white.svg</file>
+        <file>icons/zoom-out_white.svg</file>
+        <file>icons/rotate-forward-80px.svg</file>
+        <file>icons/rotate-backward-80px.svg</file>
+        <file>icons/rotate-forward-80px_white.svg</file>
+        <file>icons/rotate-backward-80px_white.svg</file>
+        <file>icons/trash.svg</file>
+        <file>icons/square-add.svg</file>
+        <file>icons/square-add_white.svg</file>
+        <file>icons/trash_white.svg</file>
+        <file>icons/mirror_horizontal.svg</file>
+        <file>icons/mirror_horizontal_white.svg</file>
+        <file>icons/button_off.svg</file>
+        <file>icons/button_off_white.svg</file>
+        <file>icons/button_on.svg</file>
+        <file>icons/button_on_white.svg</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

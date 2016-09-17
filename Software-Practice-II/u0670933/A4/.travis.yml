@@ -1,0 +1,29 @@
+language: cpp
+compiler: gcc
+sudo: false
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - gcc-4.8
+      - g++-4.8
+      - libgtest-dev
+
+before_script:
+  - uname -a
+  - printenv
+  - g++ --version 2>&1 | grep g++
+
+install:
+  # Install gtest without sudo
+  - mkdir ~/gtest && cd ~/gtest 
+  - if [ "$CXX" = "g++" ]; then export CXX="g++-4.8" CC="gcc-4.8"; fi
+  - export LIBRARY_PATH=$(pwd)
+  - mkdir libraries
+  - cp -r /usr/src/gtest/* ./
+  - cmake -D CMAKE_INSTALL_PREFIX:PATH=./ ./
+  - make
+  - cd -
+  
+script: make && make test

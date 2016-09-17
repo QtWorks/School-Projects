@@ -1,0 +1,28 @@
+1	grubb	Tue Mar 1 09:58:09 2016
+2	grubb	Tue Mar 1 09:58:31 2016
+1	grubb	Tue Mar 1 09:59:00 2016
+3	grubb	Tue Mar 1 10:01:19 2016
+0	grubb	Tue Mar 1 10:04:10 2016
+0	grubb	Tue Mar 1 10:07:28 2016
+0	grubb	Tue Mar 1 10:12:20 2016
+9	grubb	Tue Mar 1 10:14:00 2016
+6	Tanner	Tue Mar 1 14:05:49 2016
+11	Tanner	Tue Mar 1 14:07:50 2016
+1	Tanner	Tue Mar 1 14:11:43 2016
+3	Tanner	Tue Mar 1 14:25:21 2016
+5	Tanner	Tue Mar 1 14:26:10 2016
+2	Tanner	Tue Mar 1 14:38:13 2016
+1	Tanner	Tue Mar 1 15:28:54 2016
+0	Tanner	Tue Mar 1 15:29:28 2016
+0		Tue Mar 1 15:30:47 2016
+1		Tue Mar 1 15:52:24 2016
+0	Stupid	Tue Mar 1 16:06:48 2016
+3	Stupid	Tue Mar 1 16:09:20 2016
+0	Stupid	Tue Mar 1 16:11:07 2016
+14	Tanner	Tue Mar 1 16:24:31 2016
+1	Stupid	Tue Mar 1 16:39:55 2016
+4	Stupid	Wed Mar 2 11:33:55 2016
+2	Tanner	Wed Mar 2 11:54:49 2016
+0	Stupid	Wed Mar 2 11:55:13 2016
+10	Stupid	Thu Mar 3 12:26:02 2016
+3	grubb	Thu Mar 3 12:57:06 2016

@@ -1,0 +1,19 @@
+LIBHARU = ./libharu
+
+spiralPDF: spiralPDF.cpp spiral.o HaruPDF.o
+	g++ -o spiralPDF spiralPDF.cpp spiral.o HaruPDF.o -O2 -L $(LIBHARU)/src/ -lhpdfs -I $(LIBHARU)/include/ -lm -lz -lstdc++
+
+spiralPDF.cpp:
+	g++ -c spiralPDF.cpp
+
+spiral.o:
+	g++ -c spiral.cpp spiral.h
+
+HaruPDF.o:
+	g++ -c HaruPDF.cpp -O2 -L $(LIBHARU)/src/ -lhpdfs -I $(LIBHARU)/include/ -lm -lz -lstdc++
+
+clean:
+	rm spiralPDF *.o
+
+test:
+	./spiralPDF

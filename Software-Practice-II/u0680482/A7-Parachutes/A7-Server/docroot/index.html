@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <meta charset="utf-8"/>
+    <title>The Lost Boys and Wendy</title>
+    <script type="text/javascript">
+
+        var wsUri = "ws://localhost:8081";
+        // var wsUri = "{schema}://{host}:{port}";
+
+        var websocket = null;
+
+        function sendTeacherMessage() {
+            if ($("#teacherName").val().length > 0) {
+                try {
+                    if (typeof MozWebSocket == 'function')
+                        WebSocket = MozWebSocket;
+                    if ( websocket && websocket.readyState == 1 )
+                        websocket.close();
+
+                    websocket = new WebSocket( wsUri );
+
+                    websocket.onopen = function (event) {
+                        console.log("CONNECTED");
+
+                        var teacherNameObject = {"webrequest": {"teacher": document.getElementById("teacherName").value}};
+                        websocket.send( JSON.stringify(teacherNameObject) );
+                        console.log( "string sent :", '"' + JSON.stringify(teacherNameObject) + '"' );
+
+                    };
+                    websocket.onclose = function (event) {
+                        console.log("DISCONNECTED");
+                    };
+                    websocket.onmessage = webSocketMessageReceived;
+                    websocket.onerror = function (event) {
+                        console.log('ERROR: ' + evt.data);
+                    };
+                } catch (exception) {
+                    console.log('ERROR: ' + exception);
+                }
+            }
+        }
+
+        function webSocketMessageReceived(event) {
+            console.log("Message received : ", event.data);
+//             console.log( event.data );
+
+            var object = JSON.parse(event.data);
+
+            $("teacherNameSubTitle").value = "Teacher Name: " + object["teacherName"];
+
+            if (!((typeof google === 'undefined') || (typeof google.visualization === 'undefined'))) {
+                data = new google.visualization.DataTable();
+                data.addColumn('string', 'Username');
+                data.addColumn('number', 'Current Level');
+                data.addColumn('number', 'High Score');
+
+                object["students"].forEach(function(item, index) {
+                    data.addRow([item[0], Number(item[1]), Number(item[2])]);
+                });
+
+                var table = new google.visualization.Table(document.getElementById('teacherStatsTable'));
+                table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+            }
+            
+            stopWebSocket();
+        }
+
+        function stopWebSocket() {
+            if (websocket)
+                websocket.close();
+        }
+
+        google.charts.load('current', {'packages':['table']});
+        google.charts.setOnLoadCallback(drawTable);
+        var data;
+
+        function drawTable() {
+            data = new google.visualization.DataTable();
+
+            // Add the columns
+            data.addColumn('string', 'Username');
+            data.addColumn('string', 'Current Level');
+            data.addColumn('string', 'High Score');
+
+            // Add empty rows to make it look pretty.
+            data.addRow([null, null, null]);
+            data.addRow([null, null, null]);
+            data.addRow([null, null, null]);
+
+            var table = new google.visualization.Table(document.getElementById('teacherStatsTable'));
+            table.draw(data, {showRowNumber: true, width: '100%', height: '100%'});
+        }
+    </script>
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Parachutes</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="controlPanel.html">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color--cyan">
+                        Management
+                    </button>
+                </a>
+                <a class="mdl-navigation__link" href="readme.html">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color--cyan">
+                        README
+                    </button>
+                </a>
+                <a class="mdl-navigation__link" href="https://github.com/University-of-Utah-CS3505/u0680482.git">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color--cyan">
+                        View This Project
+                    </button>
+                </a>
+            </nav>
+        </div>
+    </header>
+      <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Parachute---The Lost Boys & Wendy</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="readme.html">Readme</a>
+                <a class="mdl-navigation__link" href="https://github.com/University-of-Utah-CS3505/u0680482">This Project</a>
+                <a class="mdl-navigation__link" href="controlPanel.html">Management</a>
+                <a class="mdl-navigation__link" href="index.html">Home</a>
+            </nav>
+        </div>
+    <main class="mdl-layout__content">
+        <style>
+            .demo-card-wide.mdl-card {
+                width: 712px;
+            }
+
+            .demo-card-wide > .mdl-card__title {
+                height: 276px;
+                background: url("images/qq.jpg") center / cover;
+            }
+
+            .mdl-card__title-text {
+                font-weight: 400;
+                font-size: 26px;
+            }
+
+            .demo-card-wide > .mdl-card__menu {
+                color: #fff;
+            }
+
+            .my-list {
+
+                padding: 5px;
+
+            }
+        </style>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <center>
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Welcome To Parachutes!</h2>
+                </div>
+                <div id="teacherNameBlock">
+                    <h1>Teacher Stats</h1>
+                    <h2 id="teacherNameSubTitle"></h2>
+                </div>
+                <div id="teacherNameDiv" style="padding: 0 0 20px 0;">
+                    <input type="text" id="teacherName" onkeydown="if(event.keyCode==13) sendTeacherMessage();"/>
+                    <button onClick="sendTeacherMessage();">Send</button>
+                </div>
+                <div id="teacherStatsTable">
+                </div
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                        Get Started
+                    </a>
+                </div>
+                <div class="mdl-card__menu">
+                    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                        <i class="material-icons">share</i>
+                    </button>
+                </div>
+            </div>
+        </center>
+    </main>
+    <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">Parachute Project</div>
+            <ul class="my-list mdl-mini-footer__link-list">
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy & Terms</a></li>
+                <li><a href="#">THE LOST BOYS &amp; WENDY ALL RIGHTS RESERVED</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,191 @@
+{
+  "website": "http://www.jsoneditoronline.org/?id=69b4a0300741846356af681b18e708da",
+  "request word list template": {
+    "requestType": "enum::Networking::WordList",
+    "teacher": "teacher name",
+    "level": 3
+  },
+  "word list response template": {
+    "wordList": {
+      "level": 3,
+      "list": [
+        "word1",
+        "word2",
+        "word3",
+        "word4"
+      ]
+    }
+  },
+  "login request template": {
+    "requestType": "enum::Networking::Login",
+    "username": "username",
+    "password": "#############"
+  },
+  "login response template": {
+    "userAccess": {
+      "accessGranted": true,
+      "username": "username"
+    }
+  },
+  "teacher list request template": {
+    "requestType": "enum::Networking::TeacherList"
+  },
+  "teacher list response template": {
+    "teacherList": [
+      "teacher1",
+      "teacher2",
+      "teacher3"
+    ]
+  },
+  "username check request template": {
+    "requestType": "enum::Networking::UsernameCheck",
+    "username": "username"
+  },
+  "username check response template": {
+    "usernameIsAvailable": true
+  },
+  "sign up request template": {
+    "requestType": "enum::Networking::Signup",
+    "username": "username",
+    "password": "###########",
+    "firstName": "first",
+    "lastName": "last",
+    "teacher": "teacher"
+  },
+  "sign up response template": {
+    "userAccess": {
+      "accessGranted": true,
+      "username": "username"
+    }
+  },
+  "game over request template": {
+    "requestType": "enum::Networking::GameOver",
+    "username": "username",
+    "level": 5433,
+    "score": 1
+  },
+  "game over response template": {
+    "gameOver": {
+      "username": "username",
+      "highScore": 543534
+    }
+  },
+  "client error response template": {
+    "requestType": "enum::Networking::Error",
+    "message": "Error message",
+    "receivedString": ""
+  },
+  "server error response template": {
+    "error": {
+      "message": "error message string",
+      "receivedString": ""
+    }
+  },
+  "get user info request template": {
+    "requestType": "enum::Networking::UserInfo",
+    "username": "username"
+  },
+  "user info response template": {
+    "userInfo": {
+      "username": "username",
+      "first": "firsName",
+      "last": "lastName",
+      "teacher": "teacher",
+      "level": 3,
+      "highScore": 2345
+    }
+  },
+  "check is teacher request template": {
+    "requestType": "enum::Networking::IsTeacher",
+    "username": "teacherLogin"
+  },
+  "check is teacher response template": {
+    "isTeacher": {
+      "username": "teacherLogin",
+      "isTeacher": false
+    }
+  },
+  "update user level and score request template": {
+    "requestType": "enum::Networking::NewScoreLevel",
+    "username": "username",
+    "score": 5342,
+    "level": 3
+  },
+  "increment user level request template": {
+    "requestType": "enum::Networking::IncrementLevel",
+    "username": "username"
+  },
+  "generic response template": {
+    "success": false
+  },
+  "WEBSITE request teacher stats template": {
+    "webrequest": {
+      "teacher": "teacherLogin"
+    }
+  },
+  "WEBSITE response teacher stats": {
+    "teacherName": "teacher name",
+    "students": [
+      ["username", "current level", "high score"],
+      ["username", "current level", "high score"],
+      ["username", "current level", "high score"],
+      ["username", "current level", "high score"],
+      ["username", "current level", "high score"]
+    ]
+  },
+  "WEBSITE request teacher list of students": {
+    "webrequest": {
+      "teacher": "teacherLogin"
+    }
+  },
+  "WEBSITE response teacher list of students": {
+    "teacherName": "teacher name",
+    "students": [
+      "studentLogin1",
+      "studentLogin2",
+      "studentLogin3",
+      "studentLogin4"
+    ]
+  },
+  "WEBSITE request new teacher": {
+    "webrequest": {
+      "username": "teacherUsername",
+      "firstName": "first",
+      "lastName": "last",
+      "password": "#############"
+    }
+  },
+  "WEBSITE request new list of words": {
+    "webrequest": {
+      "username": "teacherUsername",
+      "level": 3,
+      "words": [
+        "word1",
+        "word2",
+        "word3"
+      ]
+    }
+  },
+  "WEBSITE request add new word": {
+    "webrequest": {
+      "username": "teacherUsername",
+      "level": 3,
+      "word": "word1"
+    }
+  },
+  "WEBSITE request delete words by level": {
+    "webrequest": {
+      "username": "teacherUsername",
+      "level": 3
+    }
+  },
+  "WEBSITE request delete single word": {
+    "webrequest": {
+      "username": "teacherUsername",
+      "level": 3,
+      "word": "word"
+    }
+  }
+}
+
+

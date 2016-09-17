@@ -1,0 +1,16 @@
+CC = g++
+CFLAGS = -Wall -std=c++11
+TrieTest: TrieTest.cpp
+	$(CC) $(CFLAGS) TrieTest TrieTest.cpp
+
+TrieTest.cpp: Trie.o
+	$(CC) $(CFLAGS) -c TrieTest.cpp Trie.o
+
+Trie.o: Trie.cpp
+	$(CC) $(CFLAGS) -c Trie.cpp
+
+clean:
+	rm TrieTest *.o
+
+test:
+	./TrieTest
