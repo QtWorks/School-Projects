@@ -1,0 +1,6 @@
+C:\Users\Tanner\Source\Repos\MSPDemos\NameRandomizer\NameRandomizer\bin\Debug\NameRandomizer.exe.config
+C:\Users\Tanner\Source\Repos\MSPDemos\NameRandomizer\NameRandomizer\bin\Debug\NameRandomizer.exe
+C:\Users\Tanner\Source\Repos\MSPDemos\NameRandomizer\NameRandomizer\bin\Debug\NameRandomizer.pdb
+C:\Users\Tanner\Source\Repos\MSPDemos\NameRandomizer\NameRandomizer\obj\Debug\NameRandomizer.csprojResolveAssemblyReference.cache
+C:\Users\Tanner\Source\Repos\MSPDemos\NameRandomizer\NameRandomizer\obj\Debug\NameRandomizer.exe
+C:\Users\Tanner\Source\Repos\MSPDemos\NameRandomizer\NameRandomizer\obj\Debug\NameRandomizer.pdb

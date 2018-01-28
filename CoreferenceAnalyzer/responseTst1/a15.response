@@ -1,0 +1,149 @@
+<TXT>
+<COREF ID="X0">@amp</COREF>
+<COREF ID="X1" REF="X0">LR</COREF>
+<COREF ID="X2" REF="X1">04-06</COREF>
+<COREF ID="1" REF="X2">CRASH</COREF>
+<COREF ID="2">BROWN</COREF>
+<COREF ID="X3" REF="2">NYT SOMBER FAREWELL</COREF>
+<COREF ID="X4" REF="X3">CROATIA</COREF>
+<COREF ID="X5">U.S. VICTIMS</COREF>
+<COREF ID="X6" REF="1">th</COREF>
+<COREF ID="X7" REF="X4">CHRIS HEDGES</COREF>
+<COREF ID="X8" REF="X2">1996</COREF>
+<COREF ID="X9" REF="X7">N.Y. Times News Service DUBROVNIK</COREF>
+<COREF ID="4" REF="X4">Croatia</COREF>
+<COREF ID="X10" REF="X8">MD</COREF>
+<COREF ID="X11">The coffins</COREF>
+<COREF ID="X12" REF="X11">the remains</COREF>
+<COREF ID="5" REF="2">Commerce Secretary Ron Brown and 32 other Americans</COREF>
+<COREF ID="X13" REF="1">a plane crash</COREF>
+<COREF ID="X14" REF="X13">two C-17</COREF>
+<COREF ID="X15" REF="X12">transport planes</COREF>
+<COREF ID="X16" REF="4">Dover Air Force Base</COREF>
+<COREF ID="X17" REF="X16">Delaware</COREF>
+<COREF ID="10" REF="X3">a somber farewell ceremony</COREF>
+<COREF ID="11" REF="X9">Dubrovnik</COREF>
+<COREF ID="X18" REF="11">Saturday morning</COREF>
+<COREF ID="X19" REF="X15">Croatian and American officials</COREF>
+<COREF ID="X20" REF="X19">19 Croatian honor guards</COREF>
+<COREF ID="X21" REF="X11">the last four coffins</COREF>
+<COREF ID="X22" REF="10">two</COREF>
+<COREF ID="X23" REF="X22">the American flag</COREF>
+<COREF ID="X24" REF="X22">two</COREF>
+<COREF ID="X25" REF="X23">the Croatian flag</COREF>
+<COREF ID="X26" REF="X25">the tarmac</COREF>
+<COREF ID="X27" REF="X24">Two</COREF>
+<COREF ID="X28" REF="X27">those</COREF>
+<COREF ID="X29" REF="1">the crash</COREF>
+<COREF ID="13" REF="X13">Croatian citizens</COREF>
+<COREF ID="X30" REF="X18">President Franjo Tudjman</COREF>
+<COREF ID="X31" REF="4">Croatia</COREF>
+<COREF ID="15" REF="10">the ceremony</COREF>
+<COREF ID="16" REF="X31">his nation</COREF>
+<COREF ID="X32" REF="16">pain and sorrow</COREF>
+<COREF ID="18" REF="X8">Today</COREF>
+<COREF ID="19" REF="16">we</COREF>
+<COREF ID="20" REF="19">our</COREF>
+<COREF ID="21" REF="2">Ron Brown</COREF>
+<COREF ID="X33" REF="X19">all other senior U.S. officials</COREF>
+<COREF ID="X34" REF="20">behalf</COREF>
+<COREF ID="X35" REF="X34">the whole</COREF>
+<COREF ID="23" REF="X31">Croatia</COREF>
+<COREF ID="24" REF="X35">myself</COREF>
+<COREF ID="25" REF="24">I</COREF>
+<COREF ID="26" REF="25">my</COREF>
+<COREF ID="X36" REF="13">the families</COREF>
+<COREF ID="X37" REF="X28">those</COREF>
+<COREF ID="28" REF="26">Tudjman</COREF>
+<COREF ID="X38" REF="X8">``</COREF>
+<COREF ID="29" REF="X16">You</COREF>
+<COREF ID="30" REF="20">our</COREF>
+<COREF ID="31" REF="25">He</COREF>
+<COREF ID="32" REF="2">Brown</COREF>
+<COREF ID="X39" REF="31">a brief euology</COREF>
+<COREF ID="X40" REF="X39">the American ambassador</COREF>
+<COREF ID="34" REF="X17">Peter W. Galbraith</COREF>
+<COREF ID="X41" REF="X37">those present</COREF>
+<COREF ID="35" REF="X18">Saturday</COREF>
+<COREF ID="36" REF="35">Easter eve</COREF>
+<COREF ID="X42" REF="36">Jesus</COREF>
+<COREF ID="X43" REF="X42">the Sermon</COREF>
+<COREF ID="X44" REF="X43">the Mount</COREF>
+<COREF ID="37" REF="34">the ambassador</COREF>
+<COREF ID="X45" REF="X36">the peacemakers</COREF>
+<COREF ID="38" REF="X19">they</COREF>
+<COREF ID="39" REF="38">the children of God</COREF>
+<COREF ID="X46" REF="X45">our friends and colleagues</COREF>
+<COREF ID="X47" REF="38">a mission</COREF>
+<COREF ID="X48" REF="X47">peace</COREF>
+<COREF ID="X49" REF="X44">The Air Force T-43 plane</COREF>
+<COREF ID="X50" REF="X48">a rocky hill</COREF>
+<COREF ID="X51" REF="X49">St. John the Baptist</COREF>
+<COREF ID="X52" REF="X51">Wednesday</COREF>
+<COREF ID="X53" REF="X50">heavy rain and fog</COREF>
+<COREF ID="45" REF="19">The 35 passengers on board</COREF>
+<COREF ID="X54" REF="X53">most</COREF>
+<COREF ID="X55" REF="X27">The two Croatians</COREF>
+<COREF ID="X56" REF="32">Brown</COREF>
+<COREF ID="48" REF="X21">the only victims whose bodies have been identified</COREF>
+<COREF ID="X57" REF="48">The remaining bodies</COREF>
+<COREF ID="X58" REF="X54">many badly</COREF>
+<COREF ID="X59" REF="X57">forensic experts</COREF>
+<COREF ID="X60" REF="X35">the</COREF>
+<COREF ID="49" REF="X55">United States</COREF>
+<COREF ID="50" REF="37">Galbraith</COREF>
+<COREF ID="X61" REF="X60">the most fitting memorial</COREF>
+<COREF ID="X62" REF="X48">peace</COREF>
+<COREF ID="X63" REF="X62">a reality</COREF>
+<COREF ID="X64" REF="X63">the ground</COREF>
+<COREF ID="X65" REF="X64">a vastly better future</COREF>
+<COREF ID="X66" REF="X59">people</COREF>
+<COREF ID="X67" REF="X21">the last five years</COREF>
+<COREF ID="52" REF="31">He</COREF>
+<COREF ID="X68" REF="5">Americans, Croats and Bosnians</COREF>
+<COREF ID="X69" REF="X67">wonderfully ordinary lives</COREF>
+<COREF ID="53" REF="19">we Americans</COREF>
+<COREF ID="X70" REF="52">for</COREF>
+<COREF ID="X71" REF="50">The Roman Catholic archbishop</COREF>
+<COREF ID="X72" REF="11">Dubrovnik</COREF>
+<COREF ID="55" REF="X23">Zelimir Puljic</COREF>
+<COREF ID="X73" REF="X70">a prayer</COREF>
+<COREF ID="X74" REF="X12">the remains</COREF>
+<COREF ID="X75" REF="X73">A bugler</COREF>
+<COREF ID="X76" REF="X74">taps</COREF>
+<COREF ID="56" REF="X15">the planes</COREF>
+<COREF ID="X77" REF="X75">the runway</COREF>
+<COREF ID="X78" REF="X77">a clear sky</COREF>
+<COREF ID="X79" REF="X78">the 11-hour journey</COREF>
+<COREF ID="X80" REF="56">American investigators</COREF>
+<COREF ID="57" REF="1">crash</COREF>
+<COREF ID="58" REF="35">Saturday</COREF>
+<COREF ID="X81" REF="57">a debris-covered area</COREF>
+<COREF ID="X82" REF="X81">orange tape</COREF>
+<COREF ID="X83" REF="X80">several pieces</COREF>
+<COREF ID="X84" REF="X82">wreckage</COREF>
+<COREF ID="X85" REF="X82">tape</COREF>
+<COREF ID="59" REF="X27">investigating team</COREF>
+<COREF ID="X86" REF="X83">the causes</COREF>
+<COREF ID="60" REF="57">the accident</COREF>
+<COREF ID="61" REF="X72">Dubrovnik</COREF>
+<COREF ID="62" REF="58">Saturday</COREF>
+<COREF ID="X87" REF="X66">The white tail</COREF>
+<COREF ID="X88" REF="X87">section</COREF>
+<COREF ID="63" REF="X49">the plane</COREF>
+<COREF ID="X89" REF="62">the Stars and Stripes</COREF>
+<COREF ID="X90" REF="63">a few</COREF>
+<COREF ID="X91" REF="X86">attached passenger seats</COREF>
+<COREF ID="X92" REF="X83">the only large pieces</COREF>
+<COREF ID="X93" REF="X90">A long black</COREF>
+<COREF ID="X94" REF="X93">mark</COREF>
+<COREF ID="X95" REF="X94">the body</COREF>
+<COREF ID="64" REF="63">the aircraft</COREF>
+<COREF ID="X96" REF="64">Down</COREF>
+<COREF ID="65" REF="X20">the steep, rocky hillside</COREF>
+<COREF ID="X97" REF="65">the engine</COREF>
+<COREF ID="X98" REF="X97">a chunk</COREF>
+<COREF ID="X99" REF="X98">the fuselage</COREF>
+<COREF ID="X100" REF="X99">NYT-</COREF>
+<COREF ID="66" REF="X38">04-06-96</COREF>
+</TXT>

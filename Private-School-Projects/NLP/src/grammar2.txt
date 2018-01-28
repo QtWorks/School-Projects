@@ -1,0 +1,9 @@
+S -> NP VP
+S -> VP NP
+NP -> I
+NP -> fish
+NP -> trust
+NP -> shrinks
+VP -> fish
+VP -> shrinks
+VP -> trust

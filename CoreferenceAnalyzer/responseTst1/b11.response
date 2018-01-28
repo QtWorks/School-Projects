@@ -1,0 +1,105 @@
+<TXT>
+<COREF ID="X0">International Corporate Report 11/12/87</COREF>
+<COREF ID="X1" REF="X0">WALL STREET JOURNAL</COREF>
+<COREF ID="X2">J</COREF>
+<COREF ID="X3" REF="X1">EUROP TENDER</COREF>
+<COREF ID="X4">MERGERS</COREF>
+<COREF ID="X5" REF="X4">ACQUISITIONS</COREF>
+<COREF ID="X6" REF="X2">TNM</COREF>
+<COREF ID="X7" REF="X3">FINANCIAL</COREF>
+<COREF ID="X8" REF="X6">INSURANCE</COREF>
+<COREF ID="X9" REF="X5">MUTUAL FUNDS</COREF>
+<COREF ID="X10" REF="X7">ACCOUNTING</COREF>
+<COREF ID="X11" REF="X10">INS</COREF>
+<COREF ID="X12" REF="X9">BANKS</COREF>
+<COREF ID="X13" REF="X11">BNK</COREF>
+<COREF ID="X14" REF="X13">AUT</COREF>
+<COREF ID="X15" REF="X10">MOTOREN WERKE AG</COREF>
+<COREF ID="1" REF="X1">BMW</COREF>
+<COREF ID="X16" REF="X4">parent-company sales</COREF>
+<COREF ID="X17" REF="X5">1987's</COREF>
+<COREF ID="X18" REF="X16">14.4 billion West German marks</COREF>
+<COREF ID="X19" REF="X18">12.3 billion marks</COREF>
+<COREF ID="2" REF="1">The auto maker</COREF>
+<COREF ID="X20" REF="X16">consolidated sales or earnings</COREF>
+<COREF ID="X21" REF="2">a rise</COREF>
+<COREF ID="X22" REF="X4">group sales</COREF>
+<COREF ID="X23" REF="X21">about 19 billion</COREF>
+<COREF ID="X24" REF="X19">marks</COREF>
+<COREF ID="3" REF="X2">1987</COREF>
+<COREF ID="X25" REF="X19">17.52 billion marks</COREF>
+<COREF ID="4" REF="3">1986</COREF>
+<COREF ID="X26" REF="X5">Moody's</COREF>
+<COREF ID="X27" REF="X6">the long-term debt</COREF>
+<COREF ID="X28" REF="X26">DEN NORSKE CREDITBANK</COREF>
+<COREF ID="X29" REF="X7">review</COREF>
+<COREF ID="X30" REF="X29">possible downgrading</COREF>
+<COREF ID="6" REF="X30">the bank</COREF>
+<COREF ID="7" REF="6">it</COREF>
+<COREF ID="X31" REF="X25">trading losses</COREF>
+<COREF ID="X32" REF="7">more than 600 million</COREF>
+<COREF ID="X33" REF="X32">Norwegian kroner</COREF>
+<COREF ID="X34" REF="X33">the past month</COREF>
+<COREF ID="8" REF="4">1987</COREF>
+<COREF ID="X35" REF="8">through unauthorized dealing</COREF>
+<COREF ID="X36" REF="X35">an individual broker</COREF>
+<COREF ID="9" REF="6">the bank</COREF>
+<COREF ID="10" REF="X26">Moody's</COREF>
+<COREF ID="X37" REF="X27">the long-term debt</COREF>
+<COREF ID="X38" REF="10">Norway's</COREF>
+<COREF ID="13" REF="X6">about $1.2 billion of debt</COREF>
+<COREF ID="15" REF="X7">the review</COREF>
+<COREF ID="X39" REF="X31">DEUTSCHE GENOSSENSCHAFTS</COREF>
+<COREF ID="X40" REF="9">BANK</COREF>
+<COREF ID="16" REF="15">it</COREF>
+<COREF ID="X41" REF="16">a majority stake</COREF>
+<COREF ID="X42" REF="16">the trade union-owned insurance group VOLKSFUERSORGE</COREF>
+<COREF ID="X43" REF="X41">an insurance concern</COREF>
+<COREF ID="X44" REF="X43">The combination</COREF>
+<COREF ID="20" REF="16">Volksfuersorge</COREF>
+<COREF ID="21" REF="X10">the insurance group R@amp;V ALLGEMEINE VERSICHERUNGS AG</COREF>
+<COREF ID="X45" REF="X38">West Germany's</COREF>
+<COREF ID="X46" REF="16">A spokesman</COREF>
+<COREF ID="X47" REF="16">the trade-union holding company</COREF>
+<COREF ID="24" REF="X47">it</COREF>
+<COREF ID="25" REF="20">Volksfuersorge</COREF>
+<COREF ID="X48" REF="X15">LINDE AG</COREF>
+<COREF ID="26" REF="X22">group sales</COREF>
+<COREF ID="27" REF="8">1987</COREF>
+<COREF ID="X49" REF="26">nine months</COREF>
+<COREF ID="X50" REF="X18">2.56 billion West German marks</COREF>
+<COREF ID="X51" REF="X25">2.73 billion marks</COREF>
+<COREF ID="28" REF="4">a year earlier</COREF>
+<COREF ID="29" REF="27">1987</COREF>
+<COREF ID="X52" REF="29">the result</COREF>
+<COREF ID="X53" REF="X51">several large orders</COREF>
+<COREF ID="X54" REF="X52">the fourth quarter</COREF>
+<COREF ID="30" REF="X11">The machinery maker</COREF>
+<COREF ID="31" REF="29">this year</COREF>
+<COREF ID="X55" REF="X48">Chairman Hans Meinhardt</COREF>
+<COREF ID="X56" REF="X53">Analysts</COREF>
+<COREF ID="X57" REF="31">domestic group profit</COREF>
+<COREF ID="32" REF="31">last year</COREF>
+<COREF ID="X58" REF="X24">106 million marks</COREF>
+<COREF ID="X59" REF="X55">NATIONALE NEDERLANDEN N.V.</COREF>
+<COREF ID="33" REF="30">it</COREF>
+<COREF ID="X60" REF="33">a definitive agreement</COREF>
+<COREF ID="X61" REF="X59">MIDWESTERN UNITED LIFE INSURANCE CO.</COREF>
+<COREF ID="X62" REF="33">one</COREF>
+<COREF ID="X63">its U.S. subsidiaries</COREF>
+<COREF ID="X64" REF="X45">Ireland's</COREF>
+<COREF ID="36" REF="X13">IRISH LIFE PLC.</COREF>
+<COREF ID="37" REF="33">The Netherlands' biggest insurance group</COREF>
+<COREF ID="38" REF="33">Midwestern United</COREF>
+<COREF ID="X65" REF="X58">the operations</COREF>
+<COREF ID="X66" REF="X62">one</COREF>
+<COREF ID="39" REF="33">its</COREF>
+<COREF ID="X67" REF="X65">units</COREF>
+<COREF ID="41" REF="39">the Dutch concern</COREF>
+<COREF ID="42" REF="39">its</COREF>
+<COREF ID="X68" REF="42">increasing</COREF>
+<COREF ID="43" REF="42">its</COREF>
+<COREF ID="X69" REF="43">expansion</COREF>
+<COREF ID="X70" REF="X63">existing subsidiaries</COREF>
+<COREF ID="X71" REF="X5">new acquisitions</COREF>
+</TXT>

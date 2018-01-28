@@ -1,0 +1,8 @@
+C:\Users\Tanner\Source\Repos\MSPDemos\CognitiveServices\TextAnalyticsDemo\bin\Debug\TextAnalyticsDemo.exe.config
+C:\Users\Tanner\Source\Repos\MSPDemos\CognitiveServices\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.csprojResolveAssemblyReference.cache
+C:\Users\Tanner\Source\Repos\MSPDemos\CognitiveServices\TextAnalyticsDemo\bin\Debug\TextAnalyticsDemo.exe
+C:\Users\Tanner\Source\Repos\MSPDemos\CognitiveServices\TextAnalyticsDemo\bin\Debug\TextAnalyticsDemo.pdb
+C:\Users\Tanner\Source\Repos\MSPDemos\CognitiveServices\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.exe
+C:\Users\Tanner\Source\Repos\MSPDemos\CognitiveServices\TextAnalyticsDemo\obj\Debug\TextAnalyticsDemo.pdb
+C:\Users\Tanner\Source\Repos\MSPDemos\CognitiveServices\TextAnalyticsDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tanner\Source\Repos\MSPDemos\CognitiveServices\TextAnalyticsDemo\bin\Debug\Newtonsoft.Json.xml

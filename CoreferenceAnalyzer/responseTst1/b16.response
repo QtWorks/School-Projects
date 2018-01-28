@@ -1,0 +1,119 @@
+<TXT>
+<COREF ID="X0">Chrysler</COREF>
+<COREF ID="X1">Grievance</COREF>
+<COREF ID="X2" REF="X0">Non-Union Staff Jacob M. Schlesinger</COREF>
+<COREF ID="X3" REF="X2">WSJ Staff</COREF>
+<COREF ID="X4" REF="X3">C LABOR AUT ROCHESTER</COREF>
+<COREF ID="X5" REF="X4">Mich.</COREF>
+<COREF ID="2" REF="X0">Chrysler Corp.</COREF>
+<COREF ID="X6" REF="X1">the highly unusual step</COREF>
+<COREF ID="3" REF="X1">a formal grievance procedure</COREF>
+<COREF ID="X7">its non-union white-collar employees</COREF>
+<COREF ID="6" REF="2">We</COREF>
+<COREF ID="7" REF="X0">Chrysler</COREF>
+<COREF ID="X8" REF="6">dramatic restructuring</COREF>
+<COREF ID="X9" REF="X7">many employees</COREF>
+<COREF ID="X10" REF="X8">management's</COREF>
+<COREF ID="X11" REF="X9">actions</COREF>
+<COREF ID="X12" REF="X9">Anthony P. St. John</COREF>
+<COREF ID="8" REF="X9">vice president for human resources</COREF>
+<COREF ID="X13" REF="X10">the auto maker's</COREF>
+<COREF ID="X14" REF="X13">a speech</COREF>
+<COREF ID="X15" REF="X12">Oakland University</COREF>
+<COREF ID="10" REF="X14">here</COREF>
+<COREF ID="X16" REF="X9">Employees</COREF>
+<COREF ID="11" REF="X14">they</COREF>
+<COREF ID="12" REF="X8">management</COREF>
+<COREF ID="13" REF="X12">Mr. St. John</COREF>
+<COREF ID="14" REF="7">the company</COREF>
+<COREF ID="15" REF="3">an "alternative disputes resolution" system</COREF>
+<COREF ID="X17" REF="3">a traditional union grievance procedure</COREF>
+<COREF ID="X18" REF="X17">the first</COREF>
+<COREF ID="16" REF="X16">these employees</COREF>
+<COREF ID="17" REF="15">a formal and impartial internal mechanism</COREF>
+<COREF ID="X19" REF="17">discipline</COREF>
+<COREF ID="X20" REF="X19">discharge</COREF>
+<COREF ID="18" REF="13">Mr. St. John</COREF>
+<COREF ID="19" REF="17">The process</COREF>
+<COREF ID="X21" REF="16">several steps</COREF>
+<COREF ID="X22" REF="19">final arbitration</COREF>
+<COREF ID="X23" REF="X22">a neutral third party</COREF>
+<COREF ID="X24" REF="X10">Chrysler's</COREF>
+<COREF ID="X25" REF="X23">the turmoil</COREF>
+<COREF ID="21" REF="14">its</COREF>
+<COREF ID="X26" REF="X21">forces</COREF>
+<COREF ID="X27" REF="X26">many industrial companies</COREF>
+<COREF ID="22" REF="21">The auto maker</COREF>
+<COREF ID="X28" REF="X27">wage and benefit plans</COREF>
+<COREF ID="23" REF="21">its</COREF>
+<COREF ID="X29" REF="23">the wake</COREF>
+<COREF ID="24" REF="23">its</COREF>
+<COREF ID="X30" REF="2">American Motors Corp.</COREF>
+<COREF ID="25" REF="7">Chrysler</COREF>
+<COREF ID="26" REF="16">about 31,000 white-collar employees in the U.S.</COREF>
+<COREF ID="X31" REF="24">roughly 21,000</COREF>
+<COREF ID="X32" REF="X31">1982</COREF>
+<COREF ID="X33" REF="X32">6,000</COREF>
+<COREF ID="X34" REF="X17">salaried workers</COREF>
+<COREF ID="X35" REF="X34">the United Auto Workers union</COREF>
+<COREF ID="X36" REF="X34">Some analysts</COREF>
+<COREF ID="27" REF="X33">the move</COREF>
+<COREF ID="X37" REF="X35">further union</COREF>
+<COREF ID="28" REF="26">the white-collar ranks</COREF>
+<COREF ID="X38" REF="28">Several management consultants</COREF>
+<COREF ID="29" REF="19">a formal grievance procedure with third-party arbitration</COREF>
+<COREF ID="X39" REF="29">common</COREF>
+<COREF ID="X40" REF="16">government employees</COREF>
+<COREF ID="30" REF="11">they</COREF>
+<COREF ID="X41" REF="30">such</COREF>
+<COREF ID="31" REF="29">a policy</COREF>
+<COREF ID="X42" REF="14">a major private company</COREF>
+<COREF ID="32" REF="30">It</COREF>
+<COREF ID="X43" REF="32">the potential</COREF>
+<COREF ID="X44" REF="X43">supervisory and management responsibility</COREF>
+<COREF ID="X45" REF="X44">authority</COREF>
+<COREF ID="X46" REF="25">Jerrold Bratkovich</COREF>
+<COREF ID="33" REF="8">a vice president</COREF>
+<COREF ID="X47" REF="X15">the Los Angeles office</COREF>
+<COREF ID="X48" REF="X15">the Hay Group</COREF>
+<COREF ID="X49" REF="12">a management consulting firm</COREF>
+<COREF ID="X50" REF="32">one</COREF>
+<COREF ID="X51" REF="X40">the main reasons</COREF>
+<COREF ID="X52" REF="X51">employers</COREF>
+<COREF ID="X53" REF="X50">unionization</COREF>
+<COREF ID="X54" REF="32">A Chrysler spokesman</COREF>
+<COREF ID="37" REF="14">the company</COREF>
+<COREF ID="X55" REF="37">a couple</COREF>
+<COREF ID="X56" REF="X27">other companies</COREF>
+<COREF ID="38" REF="32">arbitration for nonunion employees</COREF>
+<COREF ID="X57" REF="X55">but</COREF>
+<COREF ID="39" REF="X17">he</COREF>
+<COREF ID="X58" REF="X56">companies</COREF>
+<COREF ID="X59" REF="39">A more common business approach</COREF>
+<COREF ID="X60" REF="X30">International Business Machines Corp.</COREF>
+<COREF ID="X61" REF="X59">any employee</COREF>
+<COREF ID="X62" REF="X61">a problem</COREF>
+<COREF ID="X63" REF="X62">satisfaction</COREF>
+<COREF ID="X64" REF="X63">the complaint</COREF>
+<COREF ID="X65" REF="X64">the attention</COREF>
+<COREF ID="X66" REF="12">higher management</COREF>
+<COREF ID="X67" REF="X54">an IBM spokesman</COREF>
+<COREF ID="X68" REF="X61">the employee</COREF>
+<COREF ID="X69" REF="X62">the problem</COREF>
+<COREF ID="41" REF="X18">IBM</COREF>
+<COREF ID="X70" REF="X69">executive</COREF>
+<COREF ID="X71" REF="X70">officer</COREF>
+<COREF ID="42" REF="X67">the spokesman</COREF>
+<COREF ID="43" REF="25">Chrysler</COREF>
+<COREF ID="44" REF="38">its system</COREF>
+<COREF ID="X72" REF="X58">The details</COREF>
+<COREF ID="46" REF="43">Chrysler</COREF>
+<COREF ID="X73" REF="44">a slide</COREF>
+<COREF ID="47" REF="18">Mr. St. John</COREF>
+<COREF ID="X74" REF="X73">presentation</COREF>
+<COREF ID="48" REF="44">the policy</COREF>
+<COREF ID="49" REF="48">It</COREF>
+<COREF ID="50" REF="49">a four-step grievance process</COREF>
+<COREF ID="51" REF="X13">UAW</COREF>
+<COREF ID="X75" REF="X34">represented workers</COREF>
+</TXT>

@@ -1,0 +1,148 @@
+
+--------EXPERIMENT 1--------
+
+
+Simple Perceptron
+
+Learning Rate	Margin	Score
+1.000000	None	91.026270
+0.100000	None	90.001156
+0.010000	None	90.002727
+
+Dynamic Learning Perceptron
+
+Learning Rate	Margin	Score
+1.000000	None	91.280110
+0.100000	None	92.244925
+0.010000	None	91.532868
+
+Margin Perceptron
+
+Learning Rate	Margin	Score
+1.000000	1.000000	91.461190
+1.000000	0.100000	90.302964
+1.000000	0.010000	90.581098
+0.100000	1.000000	91.352007
+0.100000	0.100000	90.085581
+0.100000	0.010000	92.630692
+0.010000	1.000000	91.593450
+0.010000	0.100000	90.833557
+0.010000	0.010000	89.953029
+
+Average Perceptron
+
+Learning Rate	Margin	Score
+1.000000	None	91.388137
+0.100000	None	92.135982
+0.010000	None	91.473085
+
+Model	Learning Rate	Margin	Score	
+Simple	1.000000	None	0.910263
+Dynamic	0.100000	None	0.922449
+Margin	0.100000	0.010000	0.926307
+AVerage	0.100000	None	0.921360
+
+--------EXPERIMENT 2--------
+
+Model	Epoch	Score
+Simple	1	0.882779
+Simple	2	0.931983
+Simple	3	0.928365
+Simple	4	0.900868
+Simple	5	0.931259
+Simple	6	0.921129
+Simple	7	0.823444
+Simple	8	0.937048
+Simple	9	0.927641
+Simple	10	0.790159
+Simple	11	0.902315
+Simple	12	0.920405
+Simple	13	0.781476
+Simple	14	0.931983
+Simple	15	0.900145
+Simple	16	0.921852
+Simple	17	0.931983
+Simple	18	0.924023
+Simple	19	0.941389
+Simple	20	0.915340
+Dynamic	1	0.903763
+Dynamic	2	0.861795
+Dynamic	3	0.942113
+Dynamic	4	0.937048
+Dynamic	5	0.937048
+Dynamic	6	0.930535
+Dynamic	7	0.928365
+Dynamic	8	0.913893
+Dynamic	9	0.934877
+Dynamic	10	0.939942
+Dynamic	11	0.932706
+Dynamic	12	0.932706
+Dynamic	13	0.937048
+Dynamic	14	0.932706
+Dynamic	15	0.941389
+Dynamic	16	0.936324
+Dynamic	17	0.933430
+Dynamic	18	0.929812
+Dynamic	19	0.931983
+Dynamic	20	0.938495
+Margin	1	0.848770
+Margin	2	0.937771
+Margin	3	0.929088
+Margin	4	0.936324
+Margin	5	0.930535
+Margin	6	0.929812
+Margin	7	0.935601
+Margin	8	0.935601
+Margin	9	0.934877
+Margin	10	0.932706
+Margin	11	0.930535
+Margin	12	0.932706
+Margin	13	0.937048
+Margin	14	0.931983
+Margin	15	0.932706
+Margin	16	0.917511
+Margin	17	0.939942
+Margin	18	0.942113
+Margin	19	0.942113
+Margin	20	0.933430
+Average	1	0.920405
+Average	2	0.928365
+Average	3	0.926918
+Average	4	0.916787
+Average	5	0.910275
+Average	6	0.908828
+Average	7	0.924023
+Average	8	0.927641
+Average	9	0.921852
+Average	10	0.934877
+Average	11	0.904486
+Average	12	0.934877
+Average	13	0.918234
+Average	14	0.919682
+Average	15	0.936324
+Average	16	0.929812
+Average	17	0.896527
+Average	18	0.880608
+Average	19	0.905210
+Average	20	0.930535
+
+Model	Best Epoch	Updates
+
+Simple	19	3099
+
+
+Dynamic	3	2714
+
+
+Margin	18	2664
+
+
+Average	15	2908
+
+Test Set Results
+
+Model	Score
+Simple	0.915340
+Dynamic	0.926194
+Margin	0.856729
+Average	0.892909

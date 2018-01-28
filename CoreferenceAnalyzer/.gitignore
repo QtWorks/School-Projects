@@ -1,0 +1,7 @@
+stanford-corenlp-full-2015-12-09/
+.idea/
+target/
+out/artifacts/CoreferenceAnalyzer_jar/CoreferenceAnalyzer.jar
+stanford*
+sl4j*
+*.class

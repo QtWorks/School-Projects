@@ -1,0 +1,128 @@
+<TXT>
+<COREF ID="1">FLIGHT-INSTRUCTO</COREF>
+<COREF ID="2" REF="1">REID</COREF>
+<COREF ID="3" REF="2">FLIGHT-INSTRUCTOR</COREF>
+<COREF ID="X0">HNS OTHER PILOTS</COREF>
+<COREF ID="4" REF="2">JOE REID</COREF>
+<COREF ID="X1" REF="4">JESSICA'S</COREF>
+<COREF ID="X2" REF="3">use</COREF>
+<COREF ID="X3">New York Times News Service clients</COREF>
+<COREF ID="X4" REF="X1">GEORGE RAINE</COREF>
+<COREF ID="X5" REF="X2">1996</COREF>
+<COREF ID="X6" REF="X5">San Francisco Examiner HALF MOON BAY</COREF>
+<COREF ID="X7" REF="X6">Calif.</COREF>
+<COREF ID="6" REF="4">Joe Reid</COREF>
+<COREF ID="X8" REF="6">Thursday</COREF>
+<COREF ID="X9" REF="X5">the airplane</COREF>
+<COREF ID="53" REF="2">he</COREF>
+<COREF ID="X10" REF="X8">7-year-old Jessica Dubroff</COREF>
+<COREF ID="X11" REF="53">her father</COREF>
+<COREF ID="X12" REF="X10">Cheyenne, Wyo.</COREF>
+<COREF ID="X13" REF="X11">the same way</COREF>
+<COREF ID="10" REF="53">he</COREF>
+<COREF ID="X14" REF="10">anything else</COREF>
+<COREF ID="X15" REF="X14">passion and attention</COREF>
+<COREF ID="X16" REF="X15">detail</COREF>
+<COREF ID="X17" REF="2">I</COREF>
+<COREF ID="11" REF="10">his</COREF>
+<COREF ID="12" REF="11">his</COREF>
+<COREF ID="X18" REF="X12">Gary Petersen</COREF>
+<COREF ID="13" REF="X11">manager</COREF>
+<COREF ID="X19" REF="X5">Half Moon Bay Airport</COREF>
+<COREF ID="X20" REF="X5">``</COREF>
+<COREF ID="15" REF="10">He</COREF>
+<COREF ID="16" REF="15">a real by-the-book guy</COREF>
+<COREF ID="X21" REF="16">MD</COREF>
+<COREF ID="X22" REF="X21">very thorough</COREF>
+<COREF ID="17" REF="2">Reid</COREF>
+<COREF ID="X23" REF="X20">52</COREF>
+<COREF ID="X24">nearly 27 years</COREF>
+<COREF ID="18" REF="17">a broker at the Dean Witter Reynolds office in Palo Alto</COREF>
+<COREF ID="19" REF="18">president of the Half Moon Bay Pilots Association</COREF>
+<COREF ID="X25" REF="19">George</COREF>
+<COREF ID="20" REF="X12">a longtime friend</COREF>
+<COREF ID="X26" REF="X9">the aircraft</COREF>
+<COREF ID="22" REF="15">he</COREF>
+<COREF ID="X27" REF="22">first</COREF>
+<COREF ID="23" REF="17">Reid</COREF>
+<COREF ID="X28" REF="X26">a small plane</COREF>
+<COREF ID="X29" REF="X23">1970</COREF>
+<COREF ID="24" REF="22">He</COREF>
+<COREF ID="25" REF="23">Reid</COREF>
+<COREF ID="26" REF="25">a Vietnam veteran</COREF>
+<COREF ID="27" REF="12">his</COREF>
+<COREF ID="X30" REF="X24">the late 1970s and</COREF>
+<COREF ID="28" REF="27">an instructor</COREF>
+<COREF ID="X31" REF="X24">four years</COREF>
+<COREF ID="X32" REF="X21">They</COREF>
+<COREF ID="29" REF="X28">the plane</COREF>
+<COREF ID="30" REF="29">a 1975 single-engine Cessna 177B Cardinal</COREF>
+<COREF ID="X33" REF="29">nine</COREF>
+<COREF ID="X34" REF="X29">``</COREF>
+<COREF ID="31" REF="24">He</COREF>
+<COREF ID="32" REF="X8">flying</COREF>
+<COREF ID="X35" REF="X31">helping other people</COREF>
+<COREF ID="X36" REF="32">the excitement</COREF>
+<COREF ID="33" REF="32">flying</COREF>
+<COREF ID="X37" REF="X34">''</COREF>
+<COREF ID="34" REF="31">Auld</COREF>
+<COREF ID="X38" REF="X37">``</COREF>
+<COREF ID="35" REF="31">Joe</COREF>
+<COREF ID="X39" REF="X38">the type</COREF>
+<COREF ID="X40" REF="X14">anything half way</COREF>
+<COREF ID="36" REF="25">Reid</COREF>
+<COREF ID="X41" REF="X35">lessons</COREF>
+<COREF ID="37" REF="X10">Jessica</COREF>
+<COREF ID="X42" REF="X41">five months</COREF>
+<COREF ID="38" REF="37">her</COREF>
+<COREF ID="X43" REF="38">the youngest person</COREF>
+<COREF ID="X44" REF="X9">a round-trip, cross-country flight</COREF>
+<COREF ID="X45" REF="X3">the United States</COREF>
+<COREF ID="X46" REF="X38">``</COREF>
+<COREF ID="39" REF="X17">I</COREF>
+<COREF ID="X47" REF="39">teaching</COREF>
+<COREF ID="40" REF="38">her</COREF>
+<COREF ID="41" REF="39">I</COREF>
+<COREF ID="X48" REF="41">anybody</COREF>
+<COREF ID="X49" REF="X48">else</COREF>
+<COREF ID="42" REF="31">he</COREF>
+<COREF ID="43" REF="40">she</COREF>
+<COREF ID="X50" REF="X42">the concepts</COREF>
+<COREF ID="X51" REF="43">an adult</COREF>
+<COREF ID="X52" REF="37">Forrest Storz</COREF>
+<COREF ID="44" REF="33">flying</COREF>
+<COREF ID="X53" REF="X19">the airport</COREF>
+<COREF ID="46" REF="36">Reid</COREF>
+<COREF ID="47" REF="2">``an exceptional, competent pilot.''</COREF>
+<COREF ID="48" REF="46">Reid</COREF>
+<COREF ID="X54" REF="48">Kansas City</COREF>
+<COREF ID="X55" REF="X54">Mo.</COREF>
+<COREF ID="X56" REF="X55">Saint Mary</COREF>
+<COREF ID="X57" REF="X56">the Plains College</COREF>
+<COREF ID="X58" REF="X54">Dodge City</COREF>
+<COREF ID="X59" REF="X58">Kan.</COREF>
+<COREF ID="X60" REF="47">active</COREF>
+<COREF ID="X61" REF="29">the</COREF>
+<COREF ID="49" REF="X5">Half Moon Bay</COREF>
+<COREF ID="X62" REF="X61">a fourth term</COREF>
+<COREF ID="X63" REF="19">the Coastside County Water District board</COREF>
+<COREF ID="50" REF="42">He</COREF>
+<COREF ID="51" REF="50">a member of the San Mateo County Airport Land Use Committee</COREF>
+<COREF ID="52" REF="51">chairman of the annual Half Moon Bay Fly-In and Air Show</COREF>
+<COREF ID="X64" REF="50">He</COREF>
+<COREF ID="X65" REF="X64">his wife</COREF>
+<COREF ID="X66" REF="52">Ana</COREF>
+<COREF ID="57" REF="X12">active parishioners</COREF>
+<COREF ID="X67" REF="X65">Our Lady</COREF>
+<COREF ID="X68" REF="X66">the Pillar Catholic Church</COREF>
+<COREF ID="58" REF="X32">They</COREF>
+<COREF ID="X69" REF="57">two sons</COREF>
+<COREF ID="X70" REF="X68">Christopher</COREF>
+<COREF ID="X71" REF="X46">27</COREF>
+<COREF ID="X72" REF="X70">Occidental</COREF>
+<COREF ID="X73" REF="X72">Matthew</COREF>
+<COREF ID="X74" REF="X71">23</COREF>
+<COREF ID="X75" REF="49">Half Moon Bay</COREF>
+<COREF ID="X76" REF="X74">NYT-</COREF>
+<COREF ID="62" REF="X74">04-12-96</COREF>
+</TXT>

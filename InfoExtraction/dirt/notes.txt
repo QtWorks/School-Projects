@@ -1,0 +1,4 @@
+T(pi, s) is the set of words that fill in the s slot of path pi
+w1 and w2 are the NP words connected by p
+(SlotX, w1) and (SlotY, w2) are features of path p
+*The more features the two paths share, the more similar they are
